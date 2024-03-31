@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1vw 6vw;
+    justify-content: space-between;
+    
+}
+
+
+.navpart2 h5  {
+   color: white;
+   font-size: 3vh;
+   position: absolute;
+   left: 78%;
+   top: 30%;
+   /* font-family: "Sacramento", cursive; */
+
+}
+
+
+.bottom-div h5 span {
+    font-size: 0.8vw;
+    font-weight: 500;
+    display: inline-block;
+    /* opacity: 0; */
+    
+ 
+}
+.bottm-div {
+    margin-top: 2vw;
+}
+.bottom-div h5  {
+    /* background-color: red; */
+    margin-bottom: 0.1vw;
+    /* background-color: red; */
+    overflow: hidden;
+  
+    
+}
+#nav-bottom {
+    width: 70%;
+    height: 0vh;
+
+    position: absolute;
+    /* background-color: red; */
+    top: 100%;
+    z-index: 9;
+    /* border-bottom: 1px solid #fff; */
+    background-color: #111;
+    
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#page1 h1 {
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 6vw;
+}
+#page1 h1 svg {
+    height: 4vw;
+    width: 4vw;
+    background-color: #008000;
+    border-radius: 50%;
+}
+#page1 p {
+    text-align: center;
+    font-weight: 400;
+}
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+.move {
+    display: flex;
+}
+.move #img1 {
+    width: 40px;
+    position: absolute;
+    bottom: 10%;
+    left: 39%;
+    border-radius: 20px;
+
+}
+.move #img2 {
+    width: 40px;
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    border-radius: 20px;
+
+}
+.move #img3 {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 10%;
+    left: 51%;
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+.move #img4 {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 10%;
+    left: 58%;
+    border: 2px solid white;
+
+}
+
+@keyframes mobe {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-100%);
+    }
+}
+#moving-div .move {
+    animation-name: mobe;
+    animation-duration: 4sec;
+}
+#techstack h6 {
+    color: white;
+    position: absolute;
+    top: 76%;
+    left: 47%;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+
